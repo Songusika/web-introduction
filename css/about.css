@@ -1,0 +1,47 @@
+body{
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+
+.about {
+    margin-left: 260px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name {
+    font-size: 65px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+}
+
+.real-name{
+    font-size: 30px;
+    color: #2B3856;
+}
+
+.belong{
+    font-size: 20px;
+    color: #48D1CC;
+}
+
+.contacts {
+    font-size: 15px;
+    opacity: 0.5;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+}
+
+.main-introduction {
+    font-size: 17px;
+    font-family: 'Noto Sans KR', sans-serif;
+    opacity: 0.8;
+    margin: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
