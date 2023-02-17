@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,12 @@
     <title>블랙캣의 영화추천 페이지</title>
 </head>
 <link rel="stylesheet" href="../css/sidebar.css">
+<link rel="stylesheet" href="../css/about.css">
+<link rel="stylesheet" href="../css/movie.css">
+<link rel="stylesheet" href="../css/guest.css">
+
+<script src="../js/util.js"></script>
+
 <body>
     <header>
     </header>
@@ -25,5 +32,116 @@
             <h3 class="click">GUEST BOOK</h3>
         </div>
     </nav>
+    <section>
+        <div class="about">
+            <div class="name">
+                <p><span>BLACKCAT</span>&nbsp</p>
+                <p class="real-name">WOOSEOK SONG</p>
+                <div class="belong">
+                    <p>우아한테크코스 5기 백엔드 크루</p>
+                </div>
+
+                <!-- 연락처 -->
+                <div class="contacts">
+                    <p>🎂1998.12.02</p>
+                    <p>📞+(82)10-4924-5690</p>
+                    <p>📧sws981202@gmail.com</p>
+                </div>
+                <article class="main-introduction">
+                    <p>안녕하세요. 우아한테크코스 백엔드 5기 크루 블랙캣 입니다.</p>
+                    <p>새로운 지식에 대한 추구, 소통과 협업, 공유의 재미를 아는 선한 개발자가 되는 꿈을 가지고 있습니다.</p>
+                    <p>앞으로 잘 부탁드리며, 언제든지 연락주세요!</p>
+                </article>
+            </div>
+    </section>
+    </div>
+    <section>
+        <div class="movie">
+            <h2>영화 추천 순위</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>순위</th>
+                        <th>제목</th>
+                        <th>포스터</th>
+                        <th>줄거리</th>
+                        <th>네이버 영화</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>지금, 만나러 갑니다</td>
+                        <td><img src="../images/movie_poster/지금만나러갑니다.jpg" alt="지금, 만나러 갑니다 포스터"></td>
+                        <td>예쁜이와 흉내쟁이 남자, 7년만에 재회하다.<br />서로에 대한 속마음을 마주하며 찾아가는 사랑과 우정의 이야기.</td>
+                        <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=140652">바로가기</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>짱구는못말려 - 어른제국의 역습</td>
+                        <td><img src="../images/movie_poster/짱구는못말려-어른제국의역습.jpg" alt="어른제국의역습 포스터"></td>
+                        <td>20세기를 그리워하는 사람이 현재의 21세기 일본은 감정도 없고 메마른 곳이라며 현재의 일본을 20세기 되돌려 놓으려한다.<br />그래서 짱구네 가족이 자신들의
+                            미래를
+                            찾기 위해 이를 막아내고 다시 일본은 원래대로 돌아온다는 이야기.</td>
+                        <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=40890">바로가기</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>공각기동대</td>
+                        <td><img src="../images/movie_poster/공각기동대.jpg" alt="공각기동대 포스터"></td>
+                        <td>인간과 로봇이 공존하는 미래 도시에서, 하이테크 사건 수사반의 활약을 그린 SF 액션 대작.</td>
+                        <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=23917">바로가기</a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>혐오스런 마츠코의 일생</td>
+                        <td><img src="../images/movie_poster/혐오스런마츠코의일생.jpeg" alt="혐오스런 마츠코의 일생 포스터"></td>
+                        <td>도쿄에서 백수 생활을 하던 쇼(에이타)는 고향의 아버지(카가와 테루유키)로부터 한 통의 전화를 받는다.<br />행방불명 되었던 고모 마츠코(나카타니 미키)가 사체로
+                            발견되었으니 유품을 정리하라는 것.<br />다 허물어져가는 아파트에서 이웃들에게 '혐오스런 마츠코' 라고 불리며 살던 그녀의 물건을 정리하며 쇼는 한 번도 만난 적
+                            없는
+                            마츠코의 일생을 접하게 된다.<br />중학교 교사로 일하며 모든 이에게 사랑받던 마츠코에게 지난 25년간 도대체 어떤 일이 일어난 것일까?.</td>
+                        <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=58333">바로가기</a></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>엽기적인그녀</td>
+                        <td><img src="../images/movie_poster/엽기적인그녀.jpg" alt="엽기적인그녀 포스터"></td>
+                        <td>전지현+차태현의 절라유쾌 사랑이야기 그녀와의 무서운 데이트가 시작된다! 2001년 여름, 온몸이 뽀사지도록 즐거워집니다!</td>
+                        <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=31726">바로가기</a></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>한니발</td>
+                        <td><img src="../images/movie_poster/한니발.jpg" alt="한니발 포스터"></td>
+                        <td>침묵은 깨질 것이다(The Silence Will Be Broken).</td>
+                        <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=29848">바로가기</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section>
+        <div class="guest-book">
+            <h2>방명록</h2>
+            <div class="guest-name">
+                <h3 class="guest">이름</h3>
+                <input type="text" id="username" name="name" placeholder="자신의 닉네임을 적어주세요">
+            </div>
+            <div class="check-movie">
+                <input type="checkbox" id="movieBox">지금, 만나러갑니다
+                <input type="checkbox" id="movieBox">짱구는 못말려 - 어른제국의 역습
+                <input type="checkbox" id="movieBox">공각기동대
+                <input type="checkbox" id="movieBox">혐오스런마츠코의일생
+                <input type="checkbox" id="movieBox">한니발
+                <input type="checkbox" id="movieBox">엽기적인그녀
+            </div>
+            <div class="check-guest">
+                <button onclick="alertMatchCount()">확인</button>
+                <button onclick="clearMovieCheckBox()">취소</button>
+            </div>
+        </div>
+    </section>
 </body>
+<script src="../js/sidebar.js"></script>
+
 </html>
