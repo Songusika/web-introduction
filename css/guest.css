@@ -1,0 +1,54 @@
+body{
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+
+.guest-book{
+    margin-left: 240px;
+}
+
+.guest-book .guest{
+    display: inline;
+    font-size: large;
+    margin-right: 10px;
+}
+
+.guest-book .guest-name input {
+    border-radius: 10px;
+    height: 20px;
+    width: 300px;
+    padding: 10px;
+    font-size: large;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.guest-book .check-movie{
+    margin-top: 30px;
+    font-size: large;
+}
+
+.guest-book .check-movie input{
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.guest-book .check-guest{
+    margin-top: 20px;
+}
+
+.guest-book .check-guest button{
+  background-color: #000000; 
+  border: none;
+  color: white; 
+  padding: 10px 16px; 
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease;
+  margin-bottom: 100px;
+}
+
+.guest-book .check-guest button:hover {
+    background-color: #23252c
+  }
